@@ -5,6 +5,6 @@
 
 ![Demo CountPages alpha](./demovideo/video-to-gif.gif)
 
-A complete demo video is here avaiable to be downloaded.
+A complete demo video is in the demovideo folder avaiable to be downloaded.
 
 
