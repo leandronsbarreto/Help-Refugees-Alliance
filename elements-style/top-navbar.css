@@ -1,0 +1,441 @@
+/*--Style top navbar--*/
+
+#container__top__navbar {
+    background-color: var(--gray-bg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 7vh;
+    width: 100%
+}
+
+.button__top__navbar {
+    background-color: transparent;
+    transition: width 0.5s
+}
+
+.active {
+    background-color: var(--dark-green);
+    color: var(--main-bg-color)
+}
+
+#donation__button {
+    background-color: var(--dark-green);
+    color: var(--main-bg-color);
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 10%;
+    height: 85%;
+    cursor: pointer;
+    border: none;
+    border-radius: 3.125rem;
+}
+
+#donation__button:hover {
+    background-color: var(--main-bg-color);
+    color: var(--black-color);
+    border: 0.125rem solid var(--dark-green)
+}
+
+#button__login {
+    height: 7vh;
+    width: 6.25rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+    position: relative
+}
+
+#button__login:hover {
+    background-color: var(--dark-green);
+    color: var(--main-bg-color);
+}
+
+#button__search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 7vh;
+    cursor: pointer;
+    border: none;
+    margin-left: 3rem;
+    position: relative
+}
+
+#searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.expand {
+    background-color: transparent;
+    border: none;
+    width: 37.5rem
+}
+
+#span__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 2.5rem
+}
+
+#span__img:hover {
+    background-color: var(--dark-green)
+}
+
+/*--End style top navbar--*/
+
+
+/*--Style member box--*/
+
+.member__box {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    width: 13.75rem;
+    position: absolute;
+    top: 47%;
+    right: 6.15rem;
+    overflow: hidden;
+    transition: max-height 0.2s
+}
+
+.open {
+    max-height: 22.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+        /*--Style arrow--*/
+
+        #container__arrow {
+            display: flex;
+            justify-content: flex-end;
+            align-items: top;
+            height: 0.938rem;
+            width: 100%
+        }
+
+        .arrow {
+            display: block;
+            height: 0.5rem;
+            width: 0.5rem;
+            border: solid var(--dark-green);
+            border-width: 0 0.125rem 0.125rem 0;
+            margin-right: 2.5rem;
+            transform: rotate(-45deg);
+            transition: transform 0.5s;
+
+        }
+
+        .turn {
+            transform: rotate(45deg);
+        }
+
+        /*--End style arrow--*/
+
+        /*--Style login box--*/
+
+        #login__box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 12.188rem;
+            width: 100%;
+            font-size: 0.75rem
+        }
+
+        #insert__email {
+            display: block;
+            height: 2.188rem;
+            width: 95%;
+            margin: 0.300rem
+        }
+
+        #insert__password {
+            display: block;
+            height: 2.188rem;
+            width: 95%;
+            margin: 0.300rem
+        }
+
+        #mandatory__field {
+            height: 0.938rem;
+            width: 95%;
+            margin: 0.300rem;
+            padding-left: 0
+        }
+
+        #login__button {
+            background-color: var(--dark-green);
+            color: var(--main-bg-color);
+            display: block;
+            height: 2.200rem;
+            width: 95%;
+            border: none;
+            margin: 0.300rem;
+            cursor: pointer
+        }
+
+        #login__button:hover {
+            background-color: var(--main-bg-color);
+            color: var(--black-color);
+            border: 0.125rem solid var(--dark-green)
+        }
+
+        #forget__password {
+            height: 1.25rem;
+            width: 95%;
+            margin: 0.300rem;
+            padding: 0.125rem
+        }
+
+        #forget__password a:hover {
+            color: var(--dark-green)
+        }
+
+        /*--End style login box--*/
+
+
+        /*--Style register now box--*/
+
+        #registernow__box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 9.375rem;
+            width: 100%;
+            border: 0.063rem solid var(--gray-bg)
+        }
+
+        #are__you__new {
+            font-size: 0.813rem;
+            text-align: justify;
+            width: 95%;
+            margin: 0.300rem;
+            padding: 0.188rem
+        }
+
+        #registernow__button {
+            background-color: var(--dark-green);
+            color: var(--main-bg-color);
+            display: block;
+            height: 2.200rem;
+            width: 95%;
+            border: none;
+            cursor: pointer;
+            margin: 0.300rem
+        }
+
+        #registernow__button:hover {
+            background-color: var(--main-bg-color);
+            color: var(--black-color);
+            border: 0.125rem solid var(--dark-green)
+        } 
+
+        /*--End style register now box--*/
+
+/*--End style member box--*/
+
+
+/*--Style input__search--*/
+
+.input__search {
+    display: block;
+    margin-right: 0.313rem;
+    border: none;
+    width: 0;
+    height: 2.188rem;
+    border-radius: 3.125rem;
+    text-indent: 1rem;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.submit__input__search {
+    display: block;
+    height: 2.188rem;
+    width: 0;
+    border: none;
+    margin-right: 0.313rem
+}
+
+.submit__input__search:hover {
+    background-color: var(--main-bg-color);
+    color: var(--black-color);
+    border: 0.125rem solid var(--dark-green);
+}
+
+.apply {
+    background-color: var(--dark-green);
+    border: none;
+    color: var(--main-bg-color);
+    margin-left: 0.125rem;
+    width: 6.25rem;
+    cursor: pointer
+}
+
+.longer {
+    border: 0.013rem solid var(--gray-bg);
+    margin-left: 0.188rem;
+    width: 28.125rem
+}
+
+/*--End style input__search--*/
+
+
+/*--Mobile devices, iPads and tablets: 55px up to 768px--*/
+
+@media screen and (min-width:3.125em) and (max-width:48.0624em) {
+    #container__top__navbar {
+        height: 6vh;
+        width: 100%
+    }
+    
+    #button__login {
+        height: 4vh
+    }
+
+    #button__search {
+        height: 4vh
+    }
+
+    #registernow__button {
+        font-size: 0.8rem
+    }
+
+    .submit__input__search {
+        font-size: 0.8rem
+    }
+
+    .button__top__navbar {
+        font-size: 0.8rem
+    }
+    
+	#donation__button {
+        font-size: 0.8rem;
+        height: 3vh;
+        width: 10%
+    }
+
+    #donation__button img {
+        height: 1vh;
+        width: 1vh
+    }
+
+    .member__box {
+        content-visibility: hidden;
+        height: 0;
+        width: 0
+    }
+
+    .input__search {
+        font-size: 0.8rem
+    }
+}
+
+/*--End Mobile devices, iPads and tablets: 55px up to 768px--*/
+
+
+/*--Small screens and laptops: 769px up to 1024px--*/
+
+@media only screen and (min-width:48.0625em) and (max-width:64em) {
+    #login__button {
+        font-size: 0.9rem;
+    }
+
+    #registernow__button {
+        font-size: 0.9rem;
+    }
+
+    .submit__input__search {
+        font-size: 0.9rem;
+    }
+
+    .button__top__navbar {
+        font-size: 0.9rem;
+    }
+    
+	#donation__button {
+        font-size: 0.9rem;
+        height: 65%;
+        width: 9%;
+    }
+
+    .input__search, #insert__email, #insert__password {
+        font-size: 0.9rem;
+    }
+
+    .member__box {
+        right: 6.1rem;
+    }
+}
+
+/*--End small screens and laptops: 769px up to 1024px--*/
+
+
+/*--Desktop and large screens: 1025px up to 1200px--*/
+
+@media only screen and (min-width:64.0625em) and (max-width:75em) { 
+    #login__button {
+        font-size: 0.9rem;
+    }
+
+    #registernow__button {
+        font-size: 0.9rem;
+    }
+
+    .submit__input__search {
+        font-size: 0.9rem;
+    }
+
+    .button__top__navbar {
+        font-size: 0.9rem;
+    }
+    
+	#donation__button {
+        font-size: 0.9rem;
+        height: 65%;
+        width: 9%;
+    }
+
+    .input__search, #insert__email, #insert__password {
+        font-size: 0.7rem;
+    }
+
+	.member__box {
+        right: 6.15rem
+    }
+}
+
+/*--End desktop and large screens: 1025px up to 1200px--*/
+
+
+/*--Extra large screens and TV: 1201px up to 1499px--*/
+
+@media only screen and (min-width:75.0625em) and (max-width:93.6875em) {
+    .member__box {
+        top: 47%;
+        right: 6.15rem
+    }
+
+    #insert__email {
+        height: 2rem
+    }
+
+    #insert__password {
+        height: 2rem
+    }
+}
+
+/*--End extra large screens and TV: 1201px up to 1499px--*/
+
