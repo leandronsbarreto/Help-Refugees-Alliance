@@ -1,0 +1,112 @@
+@import './elements-style/header.css';
+@import './elements-style/top-navbar.css';
+@import './elements-style/bottom-navbar.css';
+@import './elements-style/main.css';
+@import './elements-style/section-home.css';
+@import './elements-style/section-about-mission-getinvolved.css';
+@import './elements-style/section-news.css';
+@import './elements-style/footer.css';
+@import './elements-style/scroolbar.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+:root {
+    --main-bg-color: #ffffff;
+    --black-color: #000000;
+    --light-green: rgb(206, 250, 218);
+    --dark-green: rgb(31 101 49);
+    --gray-bg: rgb(197, 193, 193, 0.5);
+    --infobox: rgb(255, 255, 255, 0.8)
+}
+
+/*--Reset--*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+img {
+    display: block
+}
+
+/*--End Reset--*/
+
+
+/*--General settings--*/
+
+html {
+    font: normal normal 0.9rem 'Roboto Condensed', sans-serif;
+    color: var(--black-color);
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    position: relative
+}
+
+/*--End general settings--*/
+
+
+/*--Mobile devices, iPads and tablets: 55px up to 768px--*/
+
+@media screen and (min-width:3.125em) and (max-width:48.0624em) { 
+	html {
+        font-size: 0.5rem;
+        height: 100vh
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh
+    }
+}
+
+/*--End Mobile devices, iPads and tablets: 55px up to 768px--*/
+
+
+/*--Small screens and laptops: 769px up to 1024px--*/
+
+@media only screen and (min-width:48.0625em) and (max-width:64.0624em) { 
+	html {
+        font-size: 0.6rem
+    }
+}
+
+/*--End small screens and laptops: 769px up to 1024px--*/
+
+
+/*--Desktop and large screens: 1025px up to 1200px--*/
+
+@media only screen and (min-width:64.0625em) and (max-width:75em) { 
+	html {
+        font-size: 0.7rem
+    }
+}
+
+/*--End desktop and large screens: 1025px up to 1200px--*/
+
+
+/*--Extra large screens and TV: 1201px up to 1499px--*/
+
+@media only screen and (min-width:75.0625em) and (max-width:93.6875em) {
+    html {
+        font-size: 0.8rem
+    }
+}
+
+/*--End extra large screens and TV: 1201px up to 1499px--*/
+
+
+
+
