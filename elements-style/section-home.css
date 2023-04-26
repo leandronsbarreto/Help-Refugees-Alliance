@@ -1,0 +1,146 @@
+/*--Style home section--*/
+
+#container__imgHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 100%;
+    margin: 1rem;
+    position: relative
+}
+
+#imgHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    position: absolute
+}
+
+#imgHome img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    height: auto;
+    width: 85%
+    
+}
+
+#infoBoxHome {
+    background-color: var(--infobox);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+    width: 25%;
+    text-align: justify;
+    padding: 1rem;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19)
+}
+
+#infoBoxHome button {
+    background-color: var(--dark-green);
+    color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1.875rem;
+    width: 6.25rem;
+    border: none;
+    border-radius: 1.25rem;
+    margin-top: 1rem;
+    cursor: pointer
+}
+
+#infoBoxHome button:hover {
+    background-color: var(--main-bg-color);
+    color: var(--dark-green);
+    border: 0.125rem solid var(--dark-green)
+}
+
+/*--End style home--*/
+
+
+/*--Mobile devices, iPads and tablets: 55px up to 768px--*/
+
+@media screen and (min-width:3.125em) and (max-width:48.0624em) {
+    #home {
+        content-visibility: visible;
+        border: none;
+        height: 14.4vh;
+        width: 100%;
+    }
+    
+	.content__section.home {
+        content-visibility: visible;
+        height: 14.4vh;
+        width: 100%
+    }
+    
+    #container__imgHome {
+        height: 14.4vh;
+        width: 100%;
+        margin: 0
+    }
+
+    #imgHome {
+        content-visibility: visible;
+        background-color: var(--dark-green);
+        height: 14.4vh;
+        width: 100%
+    }
+
+    #infoBoxHome {
+        content-visibility: hidden;
+        width: 0;
+        padding: 0
+    }
+}
+
+/*--End Mobile devices, iPads and tablets: 55px up to 768px--*/
+
+
+/*--Small screens and laptops: 769px up to 1024px--*/
+
+@media only screen and (min-width:48.0625em) and (max-width:64em) { 
+	#infoBoxHome button {
+        font-size: 0.7rem;
+        height: 1.5rem;
+        width: 33%
+    }
+}
+
+/*--End small screens and laptops: 769px up to 1024px--*/
+
+
+/*--Desktop and large screens: 1025px up to 1200px--*/
+
+@media only screen and (min-width:64.0625em) and (max-width:75em) { 
+	#infoBoxHome button {
+        font-size: 0.9rem;
+        height: 1.5rem;
+        width: 30.5%
+    }
+}
+
+/*--End desktop and large screens: 1025px up to 1200px--*/
+
+
+/*--Extra large screens and TV: 1201px up to 1499px--*/
+
+@media only screen and (min-width:75.0625em) and (max-width:93.6875em) {
+    #infoBoxHome button {
+        font-size: 0.8rem
+    }
+}
+
+/*--End extra large screens and TV: 1201px up to 1499px--*/
