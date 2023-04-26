@@ -1,0 +1,133 @@
+/*--Style bottom navbar--*/
+
+#container__bottomNavbar {
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 8vh;
+    width: 100%
+}
+
+#container__logo {
+    background-color: var(--dark-green);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 19%
+}
+
+#container__logo img {
+    height: auto;
+    width: 90%
+}
+
+#container__ulBottomNavbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto
+}
+
+#ul__bottomNavbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: auto
+}
+
+#ul__bottomNavbar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 9.375rem
+}
+
+#ul__bottomNavbar li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%
+}
+
+#ul__bottomNavbar li a:hover {
+    background-color: var(--dark-green);
+    color: var(--main-bg-color)
+}
+
+.activelink {
+    background-color: var(--dark-green);
+    color: var(--main-bg-color)
+}
+
+/*--End Style bottom navbar--*/
+
+
+/*--Mobile devices, iPads and tablets: 55px up to 768px--*/
+
+@media screen and (min-width:3.125em) and (max-width:48.0624em) { 
+	#container__bottomNavbar {
+        content-visibility: hidden;
+        height: 0;
+        width: 0
+    }
+}
+
+/*--End Mobile devices, iPads and tablets: 55px up to 768px--*/
+
+
+/*--Small screens and laptops: 769px up to 1024px--*/
+
+@media only screen and (min-width:48.0625em) and (max-width:64em) {
+    #container__logo {
+        background-color: var(--dark-green)
+    }
+}
+
+/*--End small screens and laptops: 769px up to 1024px--*/
+
+
+/*--Desktop and large screens: 1025px up to 1200px--*/
+
+@media only screen and (min-width:64.0625em) and (max-width:75em) {
+    #container__logo {
+        background-color: var(--dark-green)
+    }
+    
+    #ul__bottomNavbar li {
+        width: 7rem
+    }
+}
+
+/*--End desktop and large screens: 1025px up to 1200px--*/
+
+
+/*--Desktop and large screens: 1025px up to 1200px--*/
+
+@media only screen and (min-width:64.0625em) and (max-width:75em) { 
+	#container__logo {
+        background-color: var(--dark-green)
+    }
+}
+
+/*--End desktop and large screens: 1025px up to 1200px--*/
+
+
+/*--Extra large screens and TV: 1201px up to 1499px--*/
+
+@media only screen and (min-width:75.0625em) and (max-width:93.6875em) {
+    #container__logo {
+        background-color: var(--dark-green)
+    }
+}
+
+/*--End extra large screens and TV: 1201px up to 1499px--*/
+
+
+
