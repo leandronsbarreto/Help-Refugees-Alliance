@@ -3,4 +3,6 @@
 
 # Demo video
 
+[![Watch the video](./images/Screenshot%202023-04-26%20131952.jpg)](./video/Help%20Refugees%20Alliance%20-%20Google%20Chrome%202023-04-26%2013-13-15.mp4)
+
 
