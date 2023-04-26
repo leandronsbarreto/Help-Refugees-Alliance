@@ -3,7 +3,7 @@
 
 # Demo
 
-![Demo CountPages alpha](./video/video-to-gif.gif)
+![Demo CountPages alpha](./demovideo/video-to-gif.gif)
 
 A complete demo video is here avaiable to be downloaded.
 
