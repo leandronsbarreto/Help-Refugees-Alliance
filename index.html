@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Help Refugees Alliance</title>
+  </head>
+  <body>
+
+
+    <header>
+      <nav id="container__top__navbar">
+        <button class="button__top__navbar" id="donation__button">
+        <img src="../src/images/heart-white.png" alt="White heart" width="16" height="16">
+        Donation
+        </button>
+        <button class="button__top__navbar" id="button__login">Login</button>
+
+
+        <div class="button__top__navbar" id="button__search">
+          <div id="searchForm">
+            <input type="text" class="input__search" placeholder="Search...">
+            <input type="submit" class="submit__input__search" value="Submit">
+          </div>
+          <span id="span__img"><div id="lupe">&#128269;</div></span>
+        </div>
+        
+        
+        
+        <div class="member__box">
+          <div id="container__arrow">
+            <div class="arrow"></div>
+          </div>
+          <form id="login__box">
+            <input type="text" id="insert__email" name="insert__email" placeholder="*Email">
+            <input type="password" id="insert__password" name="insert__password" placeholder="*Password"> 
+            <div id="mandatory__field"><strong>*Mandatory fields</strong></div>
+            <button id="login__button">Login</button>
+            <div id="forget__password"><a href="#">&#10095; Did you forget your password?</a></div>
+          </form>
+          <div id="registernow__box">
+            <div id="are__you__new">Don't you have an account? If you're new here and would like to spread solidarity, join us now. Let's make the difference!</div>
+            <button id="registernow__button">Register now</button>
+          </div>
+        </div>
+      </nav>
+      <nav id="container__bottomNavbar">
+        <a id="container__logo" href="#home" title="Go to website homepage">
+        <img src="./images/logo-green-background.png" alt="Logo Help Refugees Alliance" width="5000" height="1063">
+        </a>
+        <div id="container__ulBottomNavbar">
+          <ul id="ul__bottomNavbar">
+            <li><a class="link__bottom__navbar about" href="#about">About us</a></li>
+            <li><a class="link__bottom__navbar mission" href="#mission">Our mission</a></li>
+            <li><a class="link__bottom__navbar news" href="#news">News and press</a></li>
+            <li><a class="link__bottom__navbar register" href="#register">Get involved</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <main>
+
+
+      <section class="main__section activeSection" id="home">
+        <div class="top__spacing__section"></div>
+        <h1 class="section__headerone">HELP REFUGEES ALLIANCE</h1>
+        <h2 class="section__headertwo">Help Refugees Alliance is a digital platform that connects volunteers worldwide willing to offer refugees a new home. It has also ranked as one of the leading international non-governmental organisations aimed at giving assistance to refugees. Other organisations such as Amnesty International and Refugees Foundation have full access to our database.</h2>
+        <div class="content__section home expanded">
+          <figure id="container__imgHome">
+            <div id="imgHome">
+              <img src="../src/images/julie-ricard-MX0erXb3Mms-unsplash.png" title="&#169; Image by Julie Ricard, Greece, 15th July 2020. Source: Unsplash." alt="Five refugee kids play in a refugee camp in Greece" width="1419" height="450">
+              <div id="infoBoxHome">According to the United Nations High Commissioner for Refugees (UNHCR), at mid-2022 103 million people were forcibly displaced worldwide &#8212; 32.5 million are refugees. UNHCR also estimates that between 2018 and 2021 an average of between 350,000 and 400,000 children were born into a refugee life per year.
+                <button>Read more</button>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+
+      <section class="main__section" id="about">
+        <div class="top__spacing__section about">
+          <hr>
+        </div>
+        <h1 class="section__headerone about">ABOUT US</h1>
+        <h2 class="section__headertwo">The organisation was founded during the 2016 refugee crisis by a group of five families in Germany. At that time those families decided to host at their homes 20 families of refugees. Today we are about 2,000 families connected worldwide.</h2>
+        <div class="content__section about">
+          <figure class="container__img about">
+            <img src="../src/images/kevin-buckert-fKf9bmZUSmA-unsplash.jpg" alt="One woman and one man stand on a road in the foreground. The man holds a baby and the woman organizes a suitcase which lays on the ground. In the background two cars are parked on the left side of the road. A traffic sign has the flag of european union." title="&#169; Image by Kevin Bückert, 10th March 2022. Source: Unsplash" width="2400" height="1600">
+          </figure>
+          <div class="container__text about">
+            <ul>
+              <li>Through our volunteer work you will not only be sharing love with those who need assistance in critical times, but also promoting understanding among people with different cultural backgrounds.</li>
+              <li>When opening ourselves to closely experience each other's culture, we have the chance to learn something new, as well as be aware of the circunstances which lead refugees to flee from their countries, e.g. war and civil war, human rights violations, environment and climate and/or economic hardship.</li>
+              <li>This will give you a deep sense of humanity and make you to pay attention to other issues that have been affecting the whole world for decades.</li>
+              <li>We always stress to our host families that they must respect refugees' personal boundaries and give them support with their integration into a new culture. Any sort of cultural enforcement is disallowed.</li>
+              <li>Psychological and medical support is offered by our health team.</li>
+              <li>Labor relations with refugees are forbidden. We are here to offer love!</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="main__section" id="mission">
+        <div id="top__spacing__section__mission">
+          <h2>Newsletter</h2>
+          <button>Sign up for updates</button>
+          <img src="./images/newsletter.png" alt="Newsletter icon" width="85" height="85">
+        </div>
+        <h1 class="section__headerone mission">OUR MISSION</h1>
+        <h2 class="section__headertwo">We are aimed to ensure that housing must be viewed as a human right which cannot be violated. Due to economic and social crisis housing has increasingly been treated as a commodity. Our ambition is to spread around the globe the following message &#8212; the world is everyone's home and everyone has the right to live in it with dignity.</h2>
+        <div class="content__section mission">
+          <div class="container__text mission">
+            <ul>
+              <li>Armed conflict, climate change, natural disasters, infrastructure development, hydro-power dams, and mega-events, such as Olympic Games or football World Cups pose a threat to the enjoyment of the right to adequate housing and displace every year millions.</li>
+              <li>The implementation of this human right must be done by states through government policies and programmes. If there are no public initiatives regarding this topic, we are here to take action.</li>
+              <li>Women, religious and ethnic minorities, indigenous peoples, persons with disabilities, migrants and refugees face discrimination in relation to housing or live in the most appalling conditions.</li>
+              <li>Adequate housing was recognized as part of the right to an adequate standard of living in article 25 of the 1948 Universal Declaration of Human Rights and in article 11.1 of the 1966 International Covenant on Economic, Social and Cultural Rights.</li>
+              <li><button>Read more</button></li>
+            </ul>
+          </div>
+          <figure class="container__img mission">
+            <img src="../src/images/ev-T7oHq5w-veI-unsplash.jpg" alt="In the foregroung a police officer can be seen in his uniform. He looks to his right side and only fifty percent of his face can be seen. In the background a white wall has a message painted graffiti. It says no border" title="&#169; Image by ev, France, 14th March 2018. Source: Unsplash." width="2400" height="1600">
+          </figure>
+        </div>
+      </section>
+
+
+      <section class="main__section" id="news">
+        <div class="top__spacing__section">
+        </div>
+        <h1 class="section__headerone">NEWS AND PRESS</h1>
+        <div class="content__section news">
+          <!--News container-->
+          <div id="newsContainer">
+            <div class="slide x activeslide">
+              <div class="slideNumber">
+                <h2>1 / 3</h2>
+              </div>
+              <div class="slideCards">
+                <div class="card one">
+                  <div class="cardImg">
+                    <figure class="cardFigure">
+                      <img src="./images/tunisian-coast-guards-al-jazeera.png" alt="Tunisian coast guards stand next to the covered bodies of refugees and migrants in the port of Sfax, central Tunisia, on December 24, 2020." title= "&#169; Image by Houssem Zouari / AP. Source: Al Jazeera." width="770" height="513">
+                    </figure>
+                  </div>
+                  <div class="cardText">
+                    <h3>More boats sink off Tunisia's coast, killing 29 asylum seekers</h3>
+                    <p>Latest deaths come as Italian media report that a record 2,000 refugees and migrants had arrived in Lampedusa within 24 hours.</p>
+                    <a href="https://www.aljazeera.com/news/2023/3/26/another-boat-sinks-off-tunisia-killing-19-african-asylum-seekers" target="_blank">> Read article</a>
+                    <p class="dateAndLocal">News | Italy and Tunisia | 26th March 2023</p>
+                  </div>
+                </div>
+                <div class="card two">
+                  <div class="cardImg">
+                    <figure class="cardFigure">
+                      <img src="../src/images/6410a97a4.jpg" alt="María is a 33-year-old Venezuelan entrepreneur who runs a successful business making ready-to-use pastry dough for empanadas in the southern Peruvian city of Arequipa." title= "&#169; Image by Nicolo Filippo Rosso. Source: UNHCR." width="966" height="644">
+                    </figure>
+                  </div>
+                  <div class="cardText">
+                    <h3>Entrepreneurship training helps Venezuelan refugees find stability</h3>
+                    <p>Training courses are helping Venezuelan refugees gain the tools to be self-sufficient.</p>
+                    <a href="https://www.unhcr.org/news/stories/2023/3/64243d244/entrepreneurship-training-helps-venezuelan-refugees-find-stability.html" target="_blank">> Read article</a>
+                    <p class="dateAndLocal">News | Chile and Peru | 29th March 2023</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide y">
+              <div class="slideNumber">
+                <h2>2 / 3</h2>
+              </div>
+              <div class="slideCards">
+                <div class="card three">
+                  <div class="cardImg">
+                    <figure class="cardFigure">
+                      <img src="../src/images/South-Sudanese-refugees-Suzanna-Nyalan-and-Triza-all-lost-their-shelters-to-floods-that-hit-their-camp-in-Sudans-White-Nile-State-in-November-2022-768x485.jpg" alt="South Sudanese refugees Suzanna, Nyalan and Triza all lost their shelters to floods that hit their camp in Sudan's White Nile State in November 2022." title="&#169; Isadora Zoni. Source: UNHCR." width="768" height="485">
+                    </figure>
+                  </div>
+                  <div class="cardText">
+                    <h3>Recurring floods in Sudan displace refugees and their host communities</h3>
+                    <p>An extended rainy season and flash flooding have made South Sudanese refugees' lives harder in Sudan.</p>
+                    <a href="https://www.unhcr.org/news/stories/2023/3/642549064/recurring-floods-sudan-displace-refugees-host-communities.html" target="_blank">> Read article</a>
+                    <p class="dateAndLocal">News | Sudan | 30th March 2023</p>
+                  </div>
+                </div>
+                <div class="card four">
+                  <div class="cardImg">
+                    <figure class="cardFigure">
+                      <img src="../src/images/64565471_906.jpg" alt="'We don't want this' reads a message hung on a fence along the main street" title="&#169; Image by Anne Höhn. Source: Deutsche Welle." width="1110" height="624">
+                    </figure>
+                  </div>
+                  <div class="cardText">
+                    <h3>Small German town fights housing for refugees</h3>
+                    <p>A town in northern Germany is in the spotlight after a riot over planned housing for asylum-seekers.</p>
+                    <a href="https://www.dw.com/en/small-german-town-fights-housing-for-refugees/a-64592839" target="_blank">> Read article</a>
+                    <p class="dateAndLocal">News | Germany | 2nd February 2023</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide z">
+              <div class="slideNumber">
+                <h2>3 / 3</h2>
+              </div>
+              <div class="slideCards">
+                <div class="card five">
+                  <div class="cardImg">
+                    <figure class="cardFigure">
+                      <img src="../src/images/HKKGQ72GFZDXTN35RJ2GOPEVEM.jpg" alt="At least 70 Afghans remain stranded at the airport in São Paulo, Brazil." title="&#169; Image by Lela Beltrão. Source: El País." width="1432" height="857">
+                    </figure>
+                  </div>
+                  <div class="cardText">
+                    <h3>Brazil, the unlikely last hope of Afghan refugees</h3>
+                    <p>The South American country has become one of the few remaining options to get a humanitarian visa to escape the Taliban.</p>
+                    <a href="https://english.elpais.com/international/2023-02-14/brazil-the-unlikely-last-hope-of-afghan-refugees.html" target="_blank">> Read article</a>
+                    <p class="dateAndLocal">News | Brazil | 14th February 2023</p>
+                  </div>
+                </div>
+                <div class="card six">
+                  <div class="cardImg">
+                    <figure class="cardFigure">
+                      <img src="./images/230119142837-01-file-afghan-refugee-2021.jpg" alt="Evacuees who fled Afghanistan walk through the terminal to board buses that will take them to a processing center, Dulles International Airport on Sunday, Aug. 29, 2021. Refugees continue to arrive in the United States, days ahead of the August 31 deadline for US troops to withdraw from Afghanistan." title="&#169; Image by Kent Nishimura. Source: Los Angeles Times via Getty Images." width="1243" height="693">
+                    </figure>
+                  </div>
+                  <div class="cardText">
+                    <h3>Biden admin unveils new program to allow private citizen groups to sponsor refugees</h3>
+                    <p>The program, called the Welcome Corps, was billed by US Secretary of State Antony Blinken.</p>
+                    <a href="https://edition.cnn.com/2023/01/19/politics/welcome-corps-program-launch/index.html" target="_blank">> Read article</a>
+                    <p class="dateAndLocal">News | USA | 19th January 2023</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Slider bar-->
+          <div id="sliderBar">
+            <div id="previousButton">&#10094;</div>
+            <div id="buttons__sliderBar">
+              <span class="button__sliderBar activebutton" id="x"></span>
+              <span class="button__sliderBar" id="y"></span>
+              <span class="button__sliderBar" id="z"></span>
+            </div>
+            <div id="nextButton">&#10095;</div>
+          </div>
+          <!--Press container-->
+          <div id="pressContainer">
+            <figure class="imgPress left">
+              <img src="../src/images/press-pass.png" alt="Press pass icon" width="512" height="512">
+            </figure>
+            <div id="text__mediaRequest">
+              <h3>If you have any media request, please contact our press team.</h3>
+            </div>
+            <button class="button__mediaRequest">Send your request</button>
+            <figure class="imgPress right">
+              <img src="../src/images/social-media.png" alt="Press team icon" width="512" height="512">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="main__section" id="register">
+        <div class="top__spacing__section register">
+          <hr>
+        </div>
+        <h1 class="section__headerone getInvolved">GET INVOLVED</h1>
+        <h2 class="section__headertwo">Be part of our group and let us help each other regardless of skin color, social and cultural backgrounds, nationality, religion, genre and/or sexuality. We are definitely different, but we must bare in mind that we are all human beings who deserve a chance to succeed in hard times.</h2>
+        <div class="content__section getInvolved">
+          <figure class="container__img getInvolved">
+            <img src="../src/images/matteo-paganelli-5XJarqlwvPA-unsplash.jpg" alt="A wall has a painting made by graffiti. The painting contains different figures in different colors, wearing different clothes and holding posters. Some of them hug each other. On one of the posters the following message is: Real equality isn't possible, if we don't celebrate our differences." title="&#169; Image by Matteo Paganelli, Belgium, 26th July 2018. Source: Unsplash." width="2400" height="1603">
+          </figure>
+          <div class="container__text getInvolved">
+            <p>If you have an empty bedroom at home and/or an unused propperty and would like to host refugees, create your profile and help us spread love within world society. Check out the steps of our process to host.</p>
+            <button>Check out and create profile</button>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+
+    <footer>
+      <div class="footer__div first">
+        <ul>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+        <div id="buttonTop">
+          <button title="Back to top of the page">
+            <div>&#8963;</div>
+          </button>
+        </div>
+      </div>
+      <div class="footer__div second">
+        <div id="address__bank">
+          <div class="container officeAddress">
+            <div class="innerContainer officeAdress">
+              <h3>Contact</h3>
+              <br>
+              <p>Help Refugees Alliance Deutschland e. V.</p>
+              <p>Gottesweg 108, 50939 Cologne</p>
+              <br>
+              <p>Phone: +49 151 6148-7949</p>
+              <p>Email: leandrobarreto@gmx.de</p>
+            </div>
+          </div>
+          <div class="container bankData">
+            <div class="innerContainer bank">
+              <h3>Account for donations</h3>
+              <br>
+              <p>Bank for world peace</p>
+              <p>IBAN: DE16 1702 0500 0008 0801 02</p>
+              <br>
+              <p>BIC: BFSWDE33XXX</p>
+            </div>
+          </div>
+        </div>
+        <div id="socialMedia">
+          <h2 id="followUs">Follow us:</h2>
+          <ul id="socialMedia__icons">
+            <li class="icon">
+              <a href="http://www.facebook.com"><img src="../src/images/facebook.png" alt="Facebook icon" width="512" height="512"></a>
+            </li>
+            <li class="icon">
+              <a href="http://www.youtube.com"><img src="../src/images/youtube.png" alt="YouTube icon" width="512" height="512"></a>
+            </li>
+            <li class="icon">
+              <a href="http://www.twitter.com"><img src="../src/images/twitter.png" alt="Twitter icon" width="512" height="512"></a>
+            </li>
+            <li class="icon">
+              <a href="http://www.instagram.com">
+              <img src="../src/images/instagram.png" alt="Instagram icon" width="512" height="512"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
