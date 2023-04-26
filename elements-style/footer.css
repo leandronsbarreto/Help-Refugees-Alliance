@@ -1,0 +1,183 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    width: 100%
+}
+
+.footer__div {
+    width: 100%
+}
+
+.footer__div.first {
+    background-color: var(--dark-green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    position: relative
+}
+
+.footer__div.first ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 20%;
+    width: 25%
+}
+
+.footer__div.first ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 1rem
+}
+
+.footer__div.first ul li a {
+    color: var(--main-bg-color)
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%
+}
+
+#address__bank {
+    background-color: var(--light-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%
+}
+
+#officeAddress {
+    height: 100%;
+    width: 50%
+}
+
+#bankData {
+    height: 100%;
+    width: 50%
+}
+
+#socialMedia {
+    background-color: var(--light-green);
+    height: 100%;
+    width: 30%
+}
+
+#followUs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30%;
+    width: 100%
+}
+
+#socialMedia__icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem
+}
+
+.icon img {
+    height: auto;
+    width: 100%;
+    cursor: pointer
+}
+
+#buttonTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    right: 0;
+    bottom: 40%
+} 
+
+#buttonTop button div {
+    padding-top: 0.5rem
+}
+
+#buttonTop button {
+    background-color: var(--dark-green);
+    color: var(--main-bg-color);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: none;
+    border-radius: 3.125rem;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer
+}
+
+#buttonTop button:hover {
+    height: 5rem;
+    width: 5rem
+}
+
+.container.officeAddress, .container.bankData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%
+}
+
+.innerContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 80%
+}
+
+.innerContainer a {
+    color: var(--black-color)
+}
+
+.innerContainer a:hover {
+    color: var(--dark-green)
+}
+
+/*--Mobile devices, iPads and tablets: 55px up to 768px--*/
+
+@media screen and (min-width:3.125em) and (max-width:48.0624em) { 
+	footer {
+        content-visibility: hidden;
+        background-color: var(--light-green);
+        height: 7vh;
+        width: 100%
+    }
+
+    .footer__div.first, .footer__div.second {
+        height: 0;
+        width: 0
+    }
+}
+
+/*--End mobile devices, iPads and tablets: 55px up to 768px--*/
